@@ -19,15 +19,13 @@ eqfeed_callback({
     "label" : "Lowestoft" ,
     "lat" : 52.473075 ,
     "long" : 1.750085 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70039-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70039-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70039-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.393
+    } ,
     "northing" : 292741 ,
     "notation" : "E70039" ,
     "riverName" : "Tide" ,
@@ -46,15 +44,13 @@ eqfeed_callback({
     "label" : "Avonmouth Portbury" ,
     "lat" : 51.49999 ,
     "long" : -2.728468 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72639-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72639-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72639-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -4.716
+    } ,
     "northing" : 178147 ,
     "notation" : "E72639" ,
     "riverName" : "Tide" ,
@@ -73,15 +69,13 @@ eqfeed_callback({
     "label" : "Sheerness" ,
     "lat" : 51.445627 ,
     "long" : 0.743415 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71539-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71539-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71539-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 2.447
+    } ,
     "northing" : 175419 ,
     "notation" : "E71539" ,
     "riverName" : "Tide" ,
@@ -100,15 +94,13 @@ eqfeed_callback({
     "label" : "Bournemouth" ,
     "lat" : 50.714331 ,
     "long" : -1.874873 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71939-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71939-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71939-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 0.507
+    } ,
     "northing" : 90530 ,
     "notation" : "E71939" ,
     "riverName" : "Tide" ,
@@ -127,15 +119,13 @@ eqfeed_callback({
     "label" : "Cromer" ,
     "lat" : 52.934316 ,
     "long" : 1.301623 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71239-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71239-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71239-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.7
+    } ,
     "northing" : 342539 ,
     "notation" : "E71239" ,
     "riverName" : "Tide" ,
@@ -154,15 +144,13 @@ eqfeed_callback({
     "label" : "Weymouth" ,
     "lat" : 50.608501 ,
     "long" : -2.447945 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72039-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72039-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72039-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.048
+    } ,
     "northing" : 78850 ,
     "notation" : "E72039" ,
     "riverName" : "Tide" ,
@@ -181,15 +169,13 @@ eqfeed_callback({
     "label" : "Dover" ,
     "lat" : 51.114372 ,
     "long" : 1.322641 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71639-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71639-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71639-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.44
+    } ,
     "northing" : 140260 ,
     "notation" : "E71639" ,
     "riverName" : "Tide" ,
@@ -208,15 +194,13 @@ eqfeed_callback({
     "label" : "Heysham" ,
     "lat" : 54.031798 ,
     "long" : -2.920253 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73439-anglian-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73439-anglian-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-15-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:15:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73439-anglian-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 2.43
+    } ,
     "northing" : 459928 ,
     "notation" : "E73439-anglian" ,
     "riverName" : "Tide" ,
@@ -235,15 +219,13 @@ eqfeed_callback({
     "label" : "Ilfracombe" ,
     "lat" : 51.211131 ,
     "long" : -4.112362 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72439-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72439-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72439-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.996
+    } ,
     "northing" : 147891 ,
     "notation" : "E72439" ,
     "riverName" : "Tide" ,
@@ -262,15 +244,13 @@ eqfeed_callback({
     "label" : "North Shields" ,
     "lat" : 55.007415 ,
     "long" : -1.439769 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70939-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70939-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70939-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.566
+    } ,
     "northing" : 568240 ,
     "notation" : "E70939" ,
     "riverName" : "Tide" ,
@@ -289,15 +269,13 @@ eqfeed_callback({
     "label" : "Workington" ,
     "lat" : 54.650691 ,
     "long" : -3.56717 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73639-anglian-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73639-anglian-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73639-anglian-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 2.221
+    } ,
     "northing" : 529529 ,
     "notation" : "E73639-anglian" ,
     "riverName" : "Tide" ,
@@ -316,15 +294,13 @@ eqfeed_callback({
     "label" : "Plymouth" ,
     "lat" : 50.368401 ,
     "long" : -4.185217 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72139-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72139-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72139-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.779
+    } ,
     "northing" : 54339 ,
     "notation" : "E72139" ,
     "riverName" : "Tide" ,
@@ -343,15 +319,13 @@ eqfeed_callback({
     "label" : "Newhaven" ,
     "lat" : 50.781775 ,
     "long" : 0.057004 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71739-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71739-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71739-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.249
+    } ,
     "northing" : 100039 ,
     "notation" : "E71739" ,
     "riverName" : "Tide" ,
@@ -370,15 +344,13 @@ eqfeed_callback({
     "label" : "Whitby" ,
     "lat" : 54.489967 ,
     "long" : -0.614597 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71039-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71039-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71039-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.336
+    } ,
     "northing" : 511399 ,
     "notation" : "E71039" ,
     "riverName" : "Tide" ,
@@ -397,15 +369,13 @@ eqfeed_callback({
     "label" : "Liverpool" ,
     "lat" : 53.449655 ,
     "long" : -3.018007 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70139-anglian-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70139-anglian-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70139-anglian-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.759
+    } ,
     "northing" : 395250 ,
     "notation" : "E70139-anglian" ,
     "riverName" : "Tide" ,
@@ -424,15 +394,13 @@ eqfeed_callback({
     "label" : "Hinkley Point" ,
     "lat" : 51.210605 ,
     "long" : -3.131326 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72539-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72539-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72539-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -3.581
+    } ,
     "northing" : 146320 ,
     "notation" : "E72539" ,
     "riverName" : "Tide" ,
@@ -451,15 +419,13 @@ eqfeed_callback({
     "label" : "Harwich" ,
     "lat" : 51.947978 ,
     "long" : 1.292108 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71439-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71439-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71439-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 0.68
+    } ,
     "northing" : 232841 ,
     "notation" : "E71439" ,
     "riverName" : "Tide" ,
@@ -478,15 +444,13 @@ eqfeed_callback({
     "label" : "Newlyn" ,
     "lat" : 50.103007 ,
     "long" : -5.542779 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72239-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72239-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72239-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.119
+    } ,
     "northing" : 28559 ,
     "notation" : "E72239" ,
     "riverName" : "Tide" ,
@@ -505,15 +469,13 @@ eqfeed_callback({
     "label" : "Portsmouth" ,
     "lat" : 50.80228 ,
     "long" : -1.11118 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71839-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71839-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71839-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.576
+    } ,
     "northing" : 100679 ,
     "notation" : "E71839" ,
     "riverName" : "Tide" ,
@@ -533,15 +495,13 @@ eqfeed_callback({
     "label" : "Immingham" ,
     "lat" : 53.63018 ,
     "long" : -0.18742 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71139-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71139-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71139-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.294
+    } ,
     "northing" : 416378 ,
     "notation" : "E71139" ,
     "riverName" : "Tide" ,
@@ -558,15 +518,13 @@ eqfeed_callback({
     "label" : "St Marys" ,
     "lat" : 49.91847 ,
     "long" : -6.31642 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72324-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72324-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72324-level-tidal_level-Mean-15_min-m" ,
+      "value" : 0.0
+    } ,
     "northing" : 10966 ,
     "notation" : "E72324" ,
     "stationReference" : "E72324"
@@ -578,15 +536,13 @@ eqfeed_callback({
     "label" : "Lowestoft" ,
     "lat" : 52.47311 ,
     "long" : 1.75011 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70024-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70024-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70024-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.107
+    } ,
     "northing" : 292745 ,
     "notation" : "E70024" ,
     "stationReference" : "E70024"
@@ -598,15 +554,13 @@ eqfeed_callback({
     "label" : "Newhaven" ,
     "lat" : 50.78178 ,
     "long" : 0.05703 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71724-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71724-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71724-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.769
+    } ,
     "northing" : 100040 ,
     "notation" : "E71724" ,
     "stationReference" : "E71724"
@@ -618,15 +572,13 @@ eqfeed_callback({
     "label" : "Liverpool" ,
     "lat" : 53.44969 ,
     "long" : -3.018 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70124-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70124-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70124-level-tidal_level-Mean-15_min-m" ,
+      "value" : 6.689
+    } ,
     "northing" : 395254 ,
     "notation" : "E70124" ,
     "stationReference" : "E70124"
@@ -638,15 +590,13 @@ eqfeed_callback({
     "label" : "Portrush" ,
     "lat" : 55.20678 ,
     "long" : -6.65683 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73939-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73939-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73939-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.271
+    } ,
     "northing" : 600180 ,
     "notation" : "E73939" ,
     "stationReference" : "E73939"
@@ -658,15 +608,13 @@ eqfeed_callback({
     "label" : "North Shields" ,
     "lat" : 55.00744 ,
     "long" : -1.43978 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70924-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70924-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70924-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.166
+    } ,
     "northing" : 568243 ,
     "notation" : "E70924" ,
     "stationReference" : "E70924"
@@ -678,15 +626,13 @@ eqfeed_callback({
     "label" : "Holyhead" ,
     "lat" : 53.31394 ,
     "long" : -4.62044 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70539-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70539-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70539-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 0.242
+    } ,
     "northing" : 382871 ,
     "notation" : "E70539" ,
     "stationReference" : "E70539"
@@ -698,15 +644,13 @@ eqfeed_callback({
     "label" : "Holyhead" ,
     "lat" : 53.31394 ,
     "long" : -4.62044 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70524-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70524-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70524-level-tidal_level-Mean-15_min-m" ,
+      "value" : 3.292
+    } ,
     "northing" : 382871 ,
     "notation" : "E70524" ,
     "stationReference" : "E70524"
@@ -718,15 +662,13 @@ eqfeed_callback({
     "label" : "Fishguard" ,
     "lat" : 52.01322 ,
     "long" : -4.98375 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73139-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73139-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73139-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.852
+    } ,
     "northing" : 239182 ,
     "notation" : "E73139" ,
     "stationReference" : "E73139"
@@ -738,15 +680,13 @@ eqfeed_callback({
     "label" : "Fishguard" ,
     "lat" : 52.01322 ,
     "long" : -4.98375 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73124-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73124-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73124-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.588
+    } ,
     "northing" : 239182 ,
     "notation" : "E73124" ,
     "stationReference" : "E73124"
@@ -758,15 +698,13 @@ eqfeed_callback({
     "label" : "Portrush" ,
     "lat" : 55.20678 ,
     "long" : -6.65683 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73924-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73924-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73924-level-tidal_level-Mean-15_min-m" ,
+      "value" : 0.969
+    } ,
     "northing" : 600180 ,
     "notation" : "E73924" ,
     "stationReference" : "E73924"
@@ -778,15 +716,13 @@ eqfeed_callback({
     "label" : "Ullapool" ,
     "lat" : 57.89525 ,
     "long" : -5.15789 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70439-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70439-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70439-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.468
+    } ,
     "northing" : 893910 ,
     "notation" : "E70439" ,
     "stationReference" : "E70439"
@@ -798,15 +734,13 @@ eqfeed_callback({
     "label" : "Workington" ,
     "lat" : 54.65072 ,
     "long" : -3.56717 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73624-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73624-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73624-level-tidal_level-Mean-15_min-m" ,
+      "value" : 6.421
+    } ,
     "northing" : 529532 ,
     "notation" : "E73624" ,
     "stationReference" : "E73624"
@@ -818,15 +752,13 @@ eqfeed_callback({
     "label" : "Leith" ,
     "lat" : 55.98983 ,
     "long" : -3.18169 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70824-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70824-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70824-level-tidal_level-Mean-15_min-m" ,
+      "value" : 5.157
+    } ,
     "northing" : 678062 ,
     "notation" : "E70824" ,
     "stationReference" : "E70824"
@@ -838,15 +770,13 @@ eqfeed_callback({
     "label" : "Leith" ,
     "lat" : 55.98983 ,
     "long" : -3.18169 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70839-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70839-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70839-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 2.257
+    } ,
     "northing" : 678062 ,
     "notation" : "E70839" ,
     "stationReference" : "E70839"
@@ -858,15 +788,13 @@ eqfeed_callback({
     "label" : "Cromer" ,
     "lat" : 52.93436 ,
     "long" : 1.30164 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71224-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71224-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71224-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.05
+    } ,
     "northing" : 342544 ,
     "notation" : "E71224" ,
     "stationReference" : "E71224"
@@ -878,15 +806,13 @@ eqfeed_callback({
     "label" : "Mumbles" ,
     "lat" : 51.57 ,
     "long" : -3.97544 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72924-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72924-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72924-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.539
+    } ,
     "northing" : 187531 ,
     "notation" : "E72924" ,
     "stationReference" : "E72924"
@@ -898,15 +824,13 @@ eqfeed_callback({
     "label" : "Newport" ,
     "lat" : 51.55 ,
     "long" : -2.98744 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72839-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72839-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72839-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -4.799
+    } ,
     "northing" : 183920 ,
     "notation" : "E72839" ,
     "stationReference" : "E72839"
@@ -918,15 +842,13 @@ eqfeed_callback({
     "label" : "Bournemouth" ,
     "lat" : 50.71433 ,
     "long" : -1.87486 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71924-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71924-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71924-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.907
+    } ,
     "northing" : 90530 ,
     "notation" : "E71924" ,
     "stationReference" : "E71924"
@@ -938,15 +860,13 @@ eqfeed_callback({
     "label" : "Ullapool" ,
     "lat" : 57.89525 ,
     "long" : -5.15789 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70424-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70424-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70424-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.282
+    } ,
     "northing" : 893910 ,
     "notation" : "E70424" ,
     "stationReference" : "E70424"
@@ -958,15 +878,13 @@ eqfeed_callback({
     "label" : "Aberdeen" ,
     "lat" : 57.14406 ,
     "long" : -2.07736 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70739-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70739-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70739-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 2.019
+    } ,
     "northing" : 805913 ,
     "notation" : "E70739" ,
     "stationReference" : "E70739"
@@ -978,15 +896,13 @@ eqfeed_callback({
     "label" : "Aberdeen" ,
     "lat" : 57.14406 ,
     "long" : -2.07736 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70724-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70724-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70724-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.269
+    } ,
     "northing" : 805913 ,
     "notation" : "E70724" ,
     "stationReference" : "E70724"
@@ -998,15 +914,13 @@ eqfeed_callback({
     "label" : "Milford Haven" ,
     "lat" : 51.70739 ,
     "long" : -5.05153 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73024-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73024-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73024-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.001
+    } ,
     "northing" : 205371 ,
     "notation" : "E73024" ,
     "stationReference" : "E73024"
@@ -1018,15 +932,13 @@ eqfeed_callback({
     "label" : "Newport" ,
     "lat" : 51.55 ,
     "long" : -2.98744 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72824-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72824-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72824-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.011
+    } ,
     "northing" : 183920 ,
     "notation" : "E72824" ,
     "stationReference" : "E72824"
@@ -1038,15 +950,13 @@ eqfeed_callback({
     "label" : "Weymouth" ,
     "lat" : 50.6085 ,
     "long" : -2.44794 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72024-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+        "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72024-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+        "date" : "2018-03-06" ,
+        "dateTime" : "2018-03-06T16:30:00Z" ,
+        "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72024-level-tidal_level-Mean-15_min-m" ,
+        "value" : 0.882
+     } ,
     "northing" : 78850 ,
     "notation" : "E72024" ,
     "stationReference" : "E72024"
@@ -1058,15 +968,13 @@ eqfeed_callback({
     "label" : "Millport" ,
     "lat" : 55.74981 ,
     "long" : -4.90633 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74039-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74039-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74039-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.819
+    } ,
     "northing" : 654544 ,
     "notation" : "E74039" ,
     "stationReference" : "E74039"
@@ -1078,15 +986,13 @@ eqfeed_callback({
     "label" : "Millport" ,
     "lat" : 55.74981 ,
     "long" : -4.90633 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74024-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74024-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74024-level-tidal_level-Mean-15_min-m" ,
+      "value" : 3.439
+    } ,
     "northing" : 654544 ,
     "notation" : "E74024" ,
     "stationReference" : "E74024"
@@ -1098,15 +1004,13 @@ eqfeed_callback({
     "label" : "St Marys" ,
     "lat" : 49.91847 ,
     "long" : -6.31642 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72339-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72339-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72339-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -2.91
+    } ,
     "northing" : 10966 ,
     "notation" : "E72339" ,
     "stationReference" : "E72339"
@@ -1118,15 +1022,13 @@ eqfeed_callback({
     "label" : "Bangor" ,
     "lat" : 54.66475 ,
     "long" : -5.66947 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73839-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73839-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73839-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 0.887
+    } ,
     "northing" : 536151 ,
     "notation" : "E73839" ,
     "stationReference" : "E73839"
@@ -1138,15 +1040,13 @@ eqfeed_callback({
     "label" : "Bangor" ,
     "lat" : 54.66475 ,
     "long" : -5.66947 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73824-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73824-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73824-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.897
+    } ,
     "northing" : 536151 ,
     "notation" : "E73824" ,
     "stationReference" : "E73824"
@@ -1158,15 +1058,13 @@ eqfeed_callback({
     "label" : "Milford Haven" ,
     "lat" : 51.70739 ,
     "long" : -5.05153 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73039-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73039-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73039-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.709
+    } ,
     "northing" : 205371 ,
     "notation" : "E73039" ,
     "stationReference" : "E73039"
@@ -1178,15 +1076,13 @@ eqfeed_callback({
     "label" : "Ilfracombe" ,
     "lat" : 51.21114 ,
     "long" : -4.11239 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72424-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72424-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72424-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.804
+    } ,
     "northing" : 147892 ,
     "notation" : "E72424" ,
     "stationReference" : "E72424"
@@ -1198,15 +1094,13 @@ eqfeed_callback({
     "label" : "Whitby" ,
     "lat" : 54.49 ,
     "long" : -0.61461 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71024-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71024-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71024-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.336
+    } ,
     "northing" : 511403 ,
     "notation" : "E71024" ,
     "stationReference" : "E71024"
@@ -1218,15 +1112,13 @@ eqfeed_callback({
     "label" : "Wick" ,
     "lat" : 58.44097 ,
     "long" : -3.08631 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70624-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70624-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70624-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.618
+    } ,
     "northing" : 950811 ,
     "notation" : "E70624" ,
     "stationReference" : "E70624"
@@ -1238,15 +1130,13 @@ eqfeed_callback({
     "label" : "Wick" ,
     "lat" : 58.44097 ,
     "long" : -3.08631 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70639-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70639-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70639-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 0.908
+    } ,
     "northing" : 950811 ,
     "notation" : "E70639" ,
     "stationReference" : "E70639"
@@ -1258,15 +1148,13 @@ eqfeed_callback({
     "label" : "Portsmouth" ,
     "lat" : 50.80228 ,
     "long" : -1.11117 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71824-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71824-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71824-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.306
+    } ,
     "northing" : 100679 ,
     "notation" : "E71824" ,
     "stationReference" : "E71824"
@@ -1278,15 +1166,13 @@ eqfeed_callback({
     "label" : "Port Erin" ,
     "lat" : 54.08539 ,
     "long" : -4.76806 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73524-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73524-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73524-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.104
+    } ,
     "northing" : 469043 ,
     "notation" : "E73524" ,
     "stationReference" : "E73524"
@@ -1298,15 +1184,13 @@ eqfeed_callback({
     "label" : "Kinlochbervie" ,
     "lat" : 58.45661 ,
     "long" : -5.05008 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70339-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70339-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70339-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.501
+    } ,
     "northing" : 956079 ,
     "notation" : "E70339" ,
     "stationReference" : "E70339"
@@ -1318,15 +1202,13 @@ eqfeed_callback({
     "label" : "Tobermory" ,
     "lat" : 56.62311 ,
     "long" : -6.06422 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74224-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74224-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74224-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.708
+    } ,
     "northing" : 755309 ,
     "notation" : "E74224" ,
     "stationReference" : "E74224"
@@ -1338,15 +1220,13 @@ eqfeed_callback({
     "label" : "Tobermory" ,
     "lat" : 56.62311 ,
     "long" : -6.06422 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74239-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74239-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74239-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.682
+    } ,
     "northing" : 755309 ,
     "notation" : "E74239" ,
     "stationReference" : "E74239"
@@ -1358,15 +1238,13 @@ eqfeed_callback({
     "label" : "Port Erin" ,
     "lat" : 54.08539 ,
     "long" : -4.76806 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73539-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73539-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73539-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.354
+    } ,
     "northing" : 469043 ,
     "notation" : "E73539" ,
     "stationReference" : "E73539"
@@ -1378,15 +1256,13 @@ eqfeed_callback({
     "label" : "Sheerness" ,
     "lat" : 51.44564 ,
     "long" : 0.74344 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71524-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71524-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71524-level-tidal_level-Mean-15_min-m" ,
+      "value" : 5.347
+    } ,
     "northing" : 175420 ,
     "notation" : "E71524" ,
     "stationReference" : "E71524"
@@ -1398,15 +1274,13 @@ eqfeed_callback({
     "label" : "Mumbles" ,
     "lat" : 51.57 ,
     "long" : -3.97544 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72939-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72939-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72939-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -2.461
+    } ,
     "northing" : 187531 ,
     "notation" : "E72939" ,
     "stationReference" : "E72939"
@@ -1438,15 +1312,13 @@ eqfeed_callback({
     "label" : "Portpatrick" ,
     "lat" : 54.84256 ,
     "long" : -5.12003 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73739-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72524-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72524-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.319
+    } ,
     "northing" : 554214 ,
     "notation" : "E73739" ,
     "stationReference" : "E73739"
@@ -1458,15 +1330,13 @@ eqfeed_callback({
     "label" : "Portpatrick" ,
     "lat" : 54.84256 ,
     "long" : -5.12003 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73724-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73739-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-15-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:15:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73739-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.848
+    } ,
     "northing" : 554214 ,
     "notation" : "E73724" ,
     "stationReference" : "E73724"
@@ -1478,15 +1348,13 @@ eqfeed_callback({
     "label" : "Stornoway" ,
     "lat" : 58.20781 ,
     "long" : -6.38897 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74324-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73724-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73724-level-tidal_level-Mean-15_min-m" ,
+      "value" : 3.477
+    } ,
     "northing" : 932739 ,
     "notation" : "E74324" ,
     "stationReference" : "E74324"
@@ -1498,15 +1366,13 @@ eqfeed_callback({
     "label" : "Stornoway" ,
     "lat" : 58.20781 ,
     "long" : -6.38897 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74339-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74324-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74324-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.114
+    } ,
     "northing" : 932739 ,
     "notation" : "E74339" ,
     "stationReference" : "E74339"
@@ -1518,15 +1384,13 @@ eqfeed_callback({
     "label" : "Heysham" ,
     "lat" : 54.03183 ,
     "long" : -2.92025 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73424-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73424-level-tidal_level-Mean-15_min-m/2018-03-06T16-15-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:15:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73424-level-tidal_level-Mean-15_min-m" ,
+      "value" : 7.33
+    } ,
     "northing" : 459932 ,
     "notation" : "E73424" ,
     "stationReference" : "E73424"
@@ -1538,15 +1402,13 @@ eqfeed_callback({
     "label" : "Avonmouth Portbury" ,
     "lat" : 51.5 ,
     "long" : -2.72847 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72624-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72624-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72624-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.784
+    } ,
     "northing" : 178148 ,
     "notation" : "E72624" ,
     "stationReference" : "E72624"
@@ -1558,15 +1420,13 @@ eqfeed_callback({
     "label" : "Jersey" ,
     "lat" : 49.18333 ,
     "long" : -2.11667 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70239-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70239-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70239-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -3.576
+    } ,
     "northing" : -79699 ,
     "notation" : "E70239" ,
     "stationReference" : "E70239"
@@ -1578,15 +1438,13 @@ eqfeed_callback({
     "label" : "Dover" ,
     "lat" : 51.11439 ,
     "long" : 1.32267 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71624-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71624-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71624-level-tidal_level-Mean-15_min-m" ,
+      "value" : 5.11
+    } ,
     "northing" : 140262 ,
     "notation" : "E71624" ,
     "stationReference" : "E71624"
@@ -1598,15 +1456,13 @@ eqfeed_callback({
     "label" : "Kinlochbervie" ,
     "lat" : 58.45661 ,
     "long" : -5.05008 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70324-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70324-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70324-level-tidal_level-Mean-15_min-m" ,
+      "value" : 0.999
+    } ,
     "northing" : 956079 ,
     "notation" : "E70324" ,
     "stationReference" : "E70324"
@@ -1618,15 +1474,13 @@ eqfeed_callback({
     "label" : "Harwich" ,
     "lat" : 51.948 ,
     "long" : 1.29214 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71424-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71424-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71424-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.7
+    } ,
     "northing" : 232843 ,
     "notation" : "E71424" ,
     "stationReference" : "E71424"
@@ -1638,15 +1492,13 @@ eqfeed_callback({
     "label" : "Jersey" ,
     "lat" : 49.18333 ,
     "long" : -2.11667 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70224-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E70224-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E70224-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.304
+    } ,
     "northing" : -79699 ,
     "notation" : "E70224" ,
     "stationReference" : "E70224"
@@ -1658,15 +1510,13 @@ eqfeed_callback({
     "label" : "Barmouth" ,
     "lat" : 52.71933 ,
     "long" : -4.04503 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73224-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73224-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73224-level-tidal_level-Mean-15_min-m" ,
+      "value" : 1.766
+    } ,
     "northing" : 315483 ,
     "notation" : "E73224" ,
     "stationReference" : "E73224"
@@ -1678,15 +1528,13 @@ eqfeed_callback({
     "label" : "Plymouth" ,
     "lat" : 50.36839 ,
     "long" : -4.18525 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72124-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72124-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72124-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.441
+    } ,
     "northing" : 54338 ,
     "notation" : "E72124" ,
     "stationReference" : "E72124"
@@ -1698,15 +1546,13 @@ eqfeed_callback({
     "label" : "Lerwick" ,
     "lat" : 60.15403 ,
     "long" : -1.14031 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74424-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74424-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74424-level-tidal_level-Mean-15_min-m" ,
+      "value" : 0.0
+    } ,
     "northing" : 1141374 ,
     "notation" : "E74424" ,
     "stationReference" : "E74424"
@@ -1718,15 +1564,13 @@ eqfeed_callback({
     "label" : "Newlyn" ,
     "lat" : 50.103 ,
     "long" : -5.543 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72224-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E72224-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E72224-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.931
+    } ,
     "northing" : 28559 ,
     "notation" : "E72224" ,
     "stationReference" : "E72224"
@@ -1738,15 +1582,13 @@ eqfeed_callback({
     "label" : "Immingham" ,
     "lat" : 53.63022 ,
     "long" : -0.18742 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71124-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E71124-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E71124-level-tidal_level-Mean-15_min-m" ,
+      "value" : 2.606
+    } ,
     "northing" : 416382 ,
     "notation" : "E71124" ,
     "stationReference" : "E71124"
@@ -1758,15 +1600,13 @@ eqfeed_callback({
     "label" : "Barmouth" ,
     "lat" : 52.71933 ,
     "long" : -4.04503 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73239-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73239-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73239-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -0.674
+    } ,
     "northing" : 315483 ,
     "notation" : "E73239" ,
     "stationReference" : "E73239"
@@ -1778,15 +1618,13 @@ eqfeed_callback({
     "label" : "Lerwick" ,
     "lat" : 60.15403 ,
     "long" : -1.14031 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74439-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E74439-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E74439-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : -1.22
+    } ,
     "northing" : 1141374 ,
     "notation" : "E74439" ,
     "stationReference" : "E74439"
@@ -1798,15 +1636,13 @@ eqfeed_callback({
     "label" : "Llandudno" ,
     "lat" : 53.33167 ,
     "long" : -3.82522 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73324-level-tidal_level-Mean-15_min-m" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "m"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73324-level-tidal_level-Mean-15_min-m/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73324-level-tidal_level-Mean-15_min-m" ,
+      "value" : 4.913
+    } ,
     "northing" : 383195 ,
     "notation" : "E73324" ,
     "stationReference" : "E73324"
@@ -1818,15 +1654,13 @@ eqfeed_callback({
     "label" : "Llandudno" ,
     "lat" : 53.33167 ,
     "long" : -3.82522 ,
-    "measures" : [ {
-      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73339-level-tidal_level-Mean-15_min-mAOD" ,
-      "parameter" : "level" ,
-      "parameterName" : "Water Level" ,
-      "period" : 900 ,
-      "qualifier" : "Tidal Level" ,
-      "unitName" : "mAOD"
-    }
-     ] ,
+    "latestReading" : {
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E73339-level-tidal_level-Mean-15_min-mAOD/2018-03-06T16-30-00Z" ,
+      "date" : "2018-03-06" ,
+      "dateTime" : "2018-03-06T16:30:00Z" ,
+      "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E73339-level-tidal_level-Mean-15_min-mAOD" ,
+      "value" : 1.063
+    } ,
     "northing" : 383195 ,
     "notation" : "E73339" ,
     "stationReference" : "E73339"
