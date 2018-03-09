@@ -21,28 +21,28 @@ eqfeed_callback({
     "long" : 1.750085 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:26",
+            "depth": 0.77
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "08:50",
+            "depth": 2.25
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:01",
+            "depth": 0.67
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:19",
+            "depth": 2.29
           }
         ]
       }
@@ -67,28 +67,28 @@ eqfeed_callback({
     "long" : -2.728468 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:03",
+            "depth": 2.22
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "05:57",
+            "depth": 11.88
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:54",
+            "depth": 1.70
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:37",
+            "depth": 12.46
           }
         ]
       }
@@ -113,28 +113,28 @@ eqfeed_callback({
     "long" : 0.743415 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:23",
+            "depth": 0.99
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:33",
+            "depth": 5.36
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "06:04",
+            "depth": 0.82
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "12:11",
+            "depth": 5.54
           }
         ]
       }
@@ -148,52 +148,6 @@ eqfeed_callback({
     "town" : "Sheerness"
   }
   , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71939" ,
-    "RLOIid" : "3352" ,
-    "catchmentName" : "England - South Coast" ,
-    "dateOpened" : "2011-10-01" ,
-    "easting" : 408930 ,
-    "gridReference" : "SZ 0893 9053" ,
-    "label" : "Bournemouth" ,
-    "lat" : 50.714331 ,
-    "long" : -1.874873 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],
-    "northing" : 90530 ,
-    "notation" : "E71939" ,
-    "riverName" : "Tide" ,
-    "stageScale" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71939/stageScale" ,
-    "stationReference" : "E71939" ,
-    "status" : "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive" ,
-    "town" : "Bournemouth"
-  }
-  , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71239" ,
     "RLOIid" : "6005" ,
     "catchmentName" : "England - East Coast" ,
@@ -205,28 +159,28 @@ eqfeed_callback({
     "long" : 1.301623 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:30",
+            "depth": 4.35
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:55",
+            "depth": 1.37
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:26",
+            "depth": 1.10
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:03",
+            "depth": 4.54
           }
         ]
       }
@@ -251,28 +205,28 @@ eqfeed_callback({
     "long" : -2.447945 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:24",
+            "depth": 1.86
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:23",
+            "depth": 0.49
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "06:09",
+            "depth": 2.01
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "14:18",
+            "depth": 0.39
           }
         ]
       }
@@ -297,28 +251,28 @@ eqfeed_callback({
     "long" : 1.322641 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:59",
+            "depth": 1.39
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:01",
+            "depth": 5.98
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:40",
+            "depth": 1.13
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:31",
+            "depth": 6.21
           }
         ]
       }
@@ -343,28 +297,28 @@ eqfeed_callback({
     "long" : -2.920253 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:29",
+            "depth": 2.18
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:13",
+            "depth": 8.72
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:06",
+            "depth": 1.80
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:48",
+            "depth": 9.13
           }
         ]
       }
@@ -389,28 +343,28 @@ eqfeed_callback({
     "long" : -4.112362 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "	04:48",
+            "depth": 8.25
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:48",
+            "depth": 1.73
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:26",
+            "depth": 8.68
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:24",
+            "depth": 1.32
           }
         ]
       }
@@ -435,28 +389,28 @@ eqfeed_callback({
     "long" : -1.439769 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:23",
+            "depth": 4.47
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "08:30",
+            "depth": 1.42
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:57",
+            "depth": 4.66
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:05",
+            "depth": 1.20
           }
         ]
       }
@@ -481,28 +435,28 @@ eqfeed_callback({
     "long" : -3.56717 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:38",
+            "depth": 1.87
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:27",
+            "depth": 7.52
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:12",
+            "depth": 1.53
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:00",
+            "depth": 7.87
           }
         ]
       }
@@ -527,28 +481,28 @@ eqfeed_callback({
     "long" : -4.185217 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:28",
+            "depth": 5.06
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:44",
+            "depth": 1.39
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:09",
+            "depth": 5.26
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:24",
+            "depth": 1.12
           }
         ]
       }
@@ -573,28 +527,28 @@ eqfeed_callback({
     "long" : 0.057004 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:08",
+            "depth": 1.42
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:00",
+            "depth": 5.97
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:44",
+            "depth": 1.16
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:36",
+            "depth": 6.25
           }
         ]
       }
@@ -619,28 +573,28 @@ eqfeed_callback({
     "long" : -0.614597 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:54",
+            "depth": 4.94
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "08:59",
+            "depth": 1.77
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:28",
+            "depth": 5.14
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:34",
+            "depth": 1.52
           }
         ]
       }
@@ -665,28 +619,28 @@ eqfeed_callback({
     "long" : -3.018007 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:22",
+            "depth": 2.24
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:02",
+            "depth": 8.56
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:01",
+            "depth": 1.82
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:37",
+            "depth": 8.93
           }
         ]
       }
@@ -711,28 +665,28 @@ eqfeed_callback({
     "long" : -3.131326 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:30",
+            "depth": 10.56
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:37",
+            "depth": 1.79
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "06:09",
+            "depth": 11.08
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "12:19",
+            "depth": 1.36
           }
         ]
       }
@@ -757,28 +711,28 @@ eqfeed_callback({
     "long" : 1.292108 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "	04:18",
+            "depth": 0.68
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:39",
+            "depth": 3.71
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:53",
+            "depth": 0.56
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:17",
+            "depth": 3.84
           }
         ]
       }
@@ -803,28 +757,28 @@ eqfeed_callback({
     "long" : -5.542779 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:29",
+            "depth": 5.00
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:08",
+            "depth": 1.30
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:04",
+            "depth": 5.23
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:45",
+            "depth": 1.07
           }
         ]
       }
@@ -849,28 +803,28 @@ eqfeed_callback({
     "long" : -1.11118 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:21",
+            "depth": 1.38
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:11",
+            "depth": 4.23
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:54",
+            "depth": 1.14
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:45",
+            "depth": 4.41
           }
         ]
       }
@@ -896,28 +850,28 @@ eqfeed_callback({
     "long" : -0.18742 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:54",
+            "depth": 6.36
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:57",
+            "depth": 1.89
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:30",
+            "depth": 6.60
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:36",
+            "depth": 1.59
           }
         ]
       }
@@ -940,32 +894,33 @@ eqfeed_callback({
     "long" : -6.31642 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:31",
+            "depth": 5.05
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:57",
+            "depth": 1.28
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:07",
+            "depth": 5.31
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:32",
+            "depth": 1.02
           }
         ]
       }
-    ],    "northing" : 10966 ,
+    ],
+    "northing" : 10966 ,
     "notation" : "E72324" ,
     "stationReference" : "E72324"
   }
@@ -978,28 +933,28 @@ eqfeed_callback({
     "long" : 1.75011 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:26",
+            "depth": 0.77
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "08:50",
+            "depth": 2.25
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:01",
+            "depth": 0.67
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:19",
+            "depth": 2.29
           }
         ]
       }
@@ -1016,28 +971,28 @@ eqfeed_callback({
     "long" : 0.05703 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:08",
+            "depth": 1.42
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:00",
+            "depth": 5.97
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:44",
+            "depth": 1.16
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:36",
+            "depth": 6.25
           }
         ]
       }
@@ -1054,28 +1009,28 @@ eqfeed_callback({
     "long" : -3.018 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:22",
+            "depth": 2.24
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:02",
+            "depth": 8.56
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:01",
+            "depth": 1.82
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:37",
+            "depth": 8.93
           }
         ]
       }
@@ -1092,28 +1047,28 @@ eqfeed_callback({
     "long" : -6.65683 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:33",
+            "depth": 1.93
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:43",
+            "depth": 0.70
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "06:03",
+            "depth": 2.04
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "12:11",
+            "depth": 0.58
           }
         ]
       }
@@ -1130,28 +1085,28 @@ eqfeed_callback({
     "long" : -1.43978 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:23",
+            "depth": 4.47
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "08:30",
+            "depth": 1.42
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:57",
+            "depth": 4.66
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:05",
+            "depth": 1.20
           }
         ]
       }
@@ -1168,72 +1123,34 @@ eqfeed_callback({
     "long" : -4.62044 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:07",
+            "depth": 1.48
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:16",
+            "depth": 5.18
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:39",
+            "depth": 1.20
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:49",
+            "depth": 5.40
           }
         ]
       }
     ],    "northing" : 382871 ,
     "notation" : "E70539" ,
     "stationReference" : "E70539"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70524" ,
-    "easting" : 225529 ,
-    "gridReference" : "SH 25529 82871" ,
-    "label" : "Holyhead" ,
-    "lat" : 53.31394 ,
-    "long" : -4.62044 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 382871 ,
-    "notation" : "E70524" ,
-    "stationReference" : "E70524"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73139" ,
@@ -1244,110 +1161,34 @@ eqfeed_callback({
     "long" : -4.98375 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:22",
+            "depth": 1.50
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:09",
+            "depth": 4.25
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:57",
+            "depth": 1.26
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:44",
+            "depth": 4.50
           }
         ]
       }
     ],    "northing" : 239182 ,
     "notation" : "E73139" ,
     "stationReference" : "E73139"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73124" ,
-    "easting" : 195337 ,
-    "gridReference" : "SM 95337 39182" ,
-    "label" : "Fishguard" ,
-    "lat" : 52.01322 ,
-    "long" : -4.98375 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 239182 ,
-    "notation" : "E73124" ,
-    "stationReference" : "E73124"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73924" ,
-    "easting" : 103846 ,
-    "gridReference" : "NR 03846 00180" ,
-    "label" : "Portrush" ,
-    "lat" : 55.20678 ,
-    "long" : -6.65683 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 600180 ,
-    "notation" : "E73924" ,
-    "stationReference" : "E73924"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70439" ,
@@ -1358,28 +1199,28 @@ eqfeed_callback({
     "long" : -5.15789 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:00",
+            "depth": 1.56
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "05:54",
+            "depth": 4.66
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:34",
+            "depth": 1.27
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:24",
+            "depth": 4.89
           }
         ]
       }
@@ -1396,28 +1237,28 @@ eqfeed_callback({
     "long" : -3.56717 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:38",
+            "depth": 1.87
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:27",
+            "depth": 7.52
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:12",
+            "depth": 1.53
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:00",
+            "depth": 7.87
           }
         ]
       }
@@ -1434,110 +1275,34 @@ eqfeed_callback({
     "long" : -3.18169 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "01:31",
+            "depth": 4.89
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "07:18",
+            "depth": "1.50"
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:06",
+            "depth": 5.12
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "07:53",
+            "depth": 1.22
           }
         ]
       }
     ],    "northing" : 678062 ,
     "notation" : "E70824" ,
     "stationReference" : "E70824"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70839" ,
-    "easting" : 326379 ,
-    "gridReference" : "NT 26379 78062" ,
-    "label" : "Leith" ,
-    "lat" : 55.98983 ,
-    "long" : -3.18169 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 678062 ,
-    "notation" : "E70839" ,
-    "stationReference" : "E70839"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71224" ,
-    "easting" : 621980 ,
-    "gridReference" : "TG 21980 42544" ,
-    "label" : "Cromer" ,
-    "lat" : 52.93436 ,
-    "long" : 1.30164 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 342544 ,
-    "notation" : "E71224" ,
-    "stationReference" : "E71224"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72924" ,
@@ -1548,186 +1313,35 @@ eqfeed_callback({
     "long" : -3.97544 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:09",
+            "depth": 8.54
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:09",
+            "depth": 1.88
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:45",
+            "depth": 8.95
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:45",
+            "depth": 1.49
           }
         ]
       }
-    ],    "northing" : 187531 ,
+    ],
+    "northing" : 187531 ,
     "notation" : "E72924" ,
     "stationReference" : "E72924"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72839" ,
-    "easting" : 331629 ,
-    "gridReference" : "ST 31629 83920" ,
-    "label" : "Newport" ,
-    "lat" : 51.55 ,
-    "long" : -2.98744 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 183920 ,
-    "notation" : "E72839" ,
-    "stationReference" : "E72839"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71924" ,
-    "easting" : 408931 ,
-    "gridReference" : "SZ 08931 90530" ,
-    "label" : "Bournemouth" ,
-    "lat" : 50.71433 ,
-    "long" : -1.87486 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 90530 ,
-    "notation" : "E71924" ,
-    "stationReference" : "E71924"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70424" ,
-    "easting" : 212929 ,
-    "gridReference" : "NH 12929 93910" ,
-    "label" : "Ullapool" ,
-    "lat" : 57.89525 ,
-    "long" : -5.15789 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 893910 ,
-    "notation" : "E70424" ,
-    "stationReference" : "E70424"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70739" ,
-    "easting" : 395417 ,
-    "gridReference" : "NJ 95417 05913" ,
-    "label" : "Aberdeen" ,
-    "lat" : 57.14406 ,
-    "long" : -2.07736 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 805913 ,
-    "notation" : "E70739" ,
-    "stationReference" : "E70739"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70724" ,
@@ -1738,72 +1352,35 @@ eqfeed_callback({
     "long" : -2.07736 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:15",
+            "depth": 3.75
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:06",
+            "depth": 1.30
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:49",
+            "depth": 3.91
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:40",
+            "depth": 1.10
           }
         ]
       }
-    ],    "northing" : 805913 ,
+    ],
+    "northing" : 805913 ,
     "notation" : "E70724" ,
     "stationReference" : "E70724"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73024" ,
-    "easting" : 189261 ,
-    "gridReference" : "SM 89261 05371" ,
-    "label" : "Milford Haven" ,
-    "lat" : 51.70739 ,
-    "long" : -5.05153 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 205371 ,
-    "notation" : "E73024" ,
-    "stationReference" : "E73024"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72824" ,
@@ -1814,110 +1391,34 @@ eqfeed_callback({
     "long" : -2.98744 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:51",
+            "depth": 10.79
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "12:12",
+            "depth": 1.20
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:37",
+            "depth": 1.11
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:30",
+            "depth": 11.35
           }
         ]
       }
     ],    "northing" : 183920 ,
     "notation" : "E72824" ,
     "stationReference" : "E72824"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72024" ,
-    "easting" : 368399 ,
-    "gridReference" : "SY 68399 78850" ,
-    "label" : "Weymouth" ,
-    "lat" : 50.6085 ,
-    "long" : -2.44794 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 78850 ,
-    "notation" : "E72024" ,
-    "stationReference" : "E72024"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74039" ,
-    "easting" : 217690 ,
-    "gridReference" : "NS 17690 54544" ,
-    "label" : "Millport" ,
-    "lat" : 55.74981 ,
-    "long" : -4.90633 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 654544 ,
-    "notation" : "E74039" ,
-    "stationReference" : "E74039"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74024" ,
@@ -1928,112 +1429,34 @@ eqfeed_callback({
     "long" : -4.90633 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:34",
+            "depth": 0.89
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:21",
+            "depth": 3.18
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:07",
+            "depth": 0.75
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:58",
+            "depth": 3.28
           }
         ]
       }
     ],    "northing" : 654544 ,
     "notation" : "E74024" ,
     "stationReference" : "E74024"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72339" ,
-    "easting" : 90268 ,
-    "gridReference" : "SV 90268 10966" ,
-    "label" : "St Marys" ,
-    "lat" : 49.91847 ,
-    "long" : -6.31642 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],
-    "northing" : 10966 ,
-    "notation" : "E72339" ,
-    "stationReference" : "E72339"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73839" ,
-    "easting" : 163460 ,
-    "gridReference" : "NW 63460 36151" ,
-    "label" : "Bangor" ,
-    "lat" : 54.66475 ,
-    "long" : -5.66947 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],
-    "northing" : 536151 ,
-    "notation" : "E73839" ,
-    "stationReference" : "E73839"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73824" ,
@@ -2044,28 +1467,28 @@ eqfeed_callback({
     "long" : -5.66947 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:46",
+            "depth": 0.91
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:06",
+            "depth": 3.22
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:18",
+            "depth": 0.78
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:39",
+            "depth": 3.32
           }
         ]
       }
@@ -2083,148 +1506,34 @@ eqfeed_callback({
     "long" : -5.05153 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:04",
+            "depth": 6.27
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:21",
+            "depth": 1.48
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:40",
+            "depth": 6.61
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:57",
+            "depth": 1.16
           }
         ]
       }
     ],    "northing" : 205371 ,
     "notation" : "E73039" ,
     "stationReference" : "E73039"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72424" ,
-    "easting" : 252547 ,
-    "gridReference" : "SS 52547 47892" ,
-    "label" : "Ilfracombe" ,
-    "lat" : 51.21114 ,
-    "long" : -4.11239 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 147892 ,
-    "notation" : "E72424" ,
-    "stationReference" : "E72424"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71024" ,
-    "easting" : 489839 ,
-    "gridReference" : "NZ 89839 11403" ,
-    "label" : "Whitby" ,
-    "lat" : 54.49 ,
-    "long" : -0.61461 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 511403 ,
-    "notation" : "E71024" ,
-    "stationReference" : "E71024"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70624" ,
-    "easting" : 336679 ,
-    "gridReference" : "ND 36679 50811" ,
-    "label" : "Wick" ,
-    "lat" : 58.44097 ,
-    "long" : -3.08631 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 950811 ,
-    "notation" : "E70624" ,
-    "stationReference" : "E70624"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70639" ,
@@ -2235,186 +1544,34 @@ eqfeed_callback({
     "long" : -3.08631 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:54",
+            "depth": 1.11
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:09",
+            "depth": 3.15
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:26",
+            "depth": 0.96
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:45",
+            "depth": 3.29
           }
         ]
       }
     ],    "northing" : 950811 ,
     "notation" : "E70639" ,
     "stationReference" : "E70639"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71824" ,
-    "easting" : 462731 ,
-    "gridReference" : "SU 62731 00679" ,
-    "label" : "Portsmouth" ,
-    "lat" : 50.80228 ,
-    "long" : -1.11117 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 100679 ,
-    "notation" : "E71824" ,
-    "stationReference" : "E71824"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73524" ,
-    "easting" : 219040 ,
-    "gridReference" : "SC 19040 69043" ,
-    "label" : "Port Erin" ,
-    "lat" : 54.08539 ,
-    "long" : -4.76806 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 469043 ,
-    "notation" : "E73524" ,
-    "stationReference" : "E73524"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70339" ,
-    "easting" : 222145 ,
-    "gridReference" : "NC 22145 56079" ,
-    "label" : "Kinlochbervie" ,
-    "lat" : 58.45661 ,
-    "long" : -5.05008 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 956079 ,
-    "notation" : "E70339" ,
-    "stationReference" : "E70339"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74224" ,
-    "easting" : 150790 ,
-    "gridReference" : "NM 50790 55309" ,
-    "label" : "Tobermory" ,
-    "lat" : 56.62311 ,
-    "long" : -6.06422 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 755309 ,
-    "notation" : "E74224" ,
-    "stationReference" : "E74224"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74239" ,
@@ -2425,28 +1582,28 @@ eqfeed_callback({
     "long" : -6.06422 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:50",
+            "depth": 4.08
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:10",
+            "depth": 1.33
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:24",
+            "depth": 4.30
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:45",
+            "depth": 1.09
           }
         ]
       }
@@ -2463,186 +1620,34 @@ eqfeed_callback({
     "long" : -4.76806 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:05",
+            "depth": 1.08
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:14",
+            "depth": 4.80
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:38",
+            "depth": 0.84
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:47",
+            "depth": 5.02
           }
         ]
       }
     ],    "northing" : 469043 ,
     "notation" : "E73539" ,
     "stationReference" : "E73539"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71524" ,
-    "easting" : 590742 ,
-    "gridReference" : "TQ 90742 75420" ,
-    "label" : "Sheerness" ,
-    "lat" : 51.44564 ,
-    "long" : 0.74344 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 175420 ,
-    "notation" : "E71524" ,
-    "stationReference" : "E71524"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72939" ,
-    "easting" : 263188 ,
-    "gridReference" : "SS 63188 87531" ,
-    "label" : "Mumbles" ,
-    "lat" : 51.57 ,
-    "long" : -3.97544 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 187531 ,
-    "notation" : "E72939" ,
-    "stationReference" : "E72939"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72524" ,
-    "easting" : 321093 ,
-    "gridReference" : "ST 21093 46364" ,
-    "label" : "Hinkley Point" ,
-    "lat" : 51.211 ,
-    "long" : -3.131 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 146364 ,
-    "notation" : "E72524" ,
-    "stationReference" : "E72524"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73739" ,
-    "easting" : 199760 ,
-    "gridReference" : "NW 99760 54214" ,
-    "label" : "Portpatrick" ,
-    "lat" : 54.84256 ,
-    "long" : -5.12003 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 554214 ,
-    "notation" : "E73739" ,
-    "stationReference" : "E73739"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73724" ,
@@ -2653,72 +1658,34 @@ eqfeed_callback({
     "long" : -5.12003 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:22",
+            "depth": 0.92
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:36",
+            "depth": 3.56
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:56",
+            "depth": 0.75
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:09",
+            "depth": 3.69
           }
         ]
       }
     ],    "northing" : 554214 ,
     "notation" : "E73724" ,
     "stationReference" : "E73724"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74324" ,
-    "easting" : 142280 ,
-    "gridReference" : "NB 42280 32739" ,
-    "label" : "Stornoway" ,
-    "lat" : 58.20781 ,
-    "long" : -6.38897 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 932739 ,
-    "notation" : "E74324" ,
-    "stationReference" : "E74324"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74339" ,
@@ -2729,186 +1696,35 @@ eqfeed_callback({
     "long" : -6.38897 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:47",
+            "depth": 4.38
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "12:13",
+            "depth": 1.26
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:27",
+            "depth": 1.21
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:18",
+            "depth": 4.60
           }
         ]
       }
-    ],    "northing" : 932739 ,
+    ],
+    "northing" : 932739 ,
     "notation" : "E74339" ,
     "stationReference" : "E74339"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73424" ,
-    "easting" : 339820 ,
-    "gridReference" : "SD 39820 59932" ,
-    "label" : "Heysham" ,
-    "lat" : 54.03183 ,
-    "long" : -2.92025 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 459932 ,
-    "notation" : "E73424" ,
-    "stationReference" : "E73424"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72624" ,
-    "easting" : 349530 ,
-    "gridReference" : "ST 49530 78148" ,
-    "label" : "Avonmouth Portbury" ,
-    "lat" : 51.5 ,
-    "long" : -2.72847 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 178148 ,
-    "notation" : "E72624" ,
-    "stationReference" : "E72624"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70239" ,
-    "easting" : 391593 ,
-    "gridReference" : "SY 91593 -79699" ,
-    "label" : "Jersey" ,
-    "lat" : 49.18333 ,
-    "long" : -2.11667 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : -79699 ,
-    "notation" : "E70239" ,
-    "stationReference" : "E70239"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71624" ,
-    "easting" : 632652 ,
-    "gridReference" : "TR 32652 40262" ,
-    "label" : "Dover" ,
-    "lat" : 51.11439 ,
-    "long" : 1.32267 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 140262 ,
-    "notation" : "E71624" ,
-    "stationReference" : "E71624"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70324" ,
@@ -2919,72 +1735,35 @@ eqfeed_callback({
     "long" : -5.05008 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:14",
+            "depth": 1.46
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:09",
+            "depth": 4.35
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:47",
+            "depth": 1.20
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "06:42",
+            "depth": 4.58
           }
         ]
       }
-    ],    "northing" : 956079 ,
+    ],
+    "northing" : 956079 ,
     "notation" : "E70324" ,
     "stationReference" : "E70324"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71424" ,
-    "easting" : 626342 ,
-    "gridReference" : "TM 26342 32843" ,
-    "label" : "Harwich" ,
-    "lat" : 51.948 ,
-    "long" : 1.29214 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 232843 ,
-    "notation" : "E71424" ,
-    "stationReference" : "E71424"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70224" ,
@@ -2995,224 +1774,34 @@ eqfeed_callback({
     "long" : -2.11667 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "05:12",
+            "depth": 9.53
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "11:50",
+            "depth": 2.39
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "00:10",
+            "depth": 2.29
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "05:51",
+            "depth": 10.09
           }
         ]
       }
     ],    "northing" : -79699 ,
     "notation" : "E70224" ,
     "stationReference" : "E70224"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73224" ,
-    "easting" : 261969 ,
-    "gridReference" : "SH 61969 15483" ,
-    "label" : "Barmouth" ,
-    "lat" : 52.71933 ,
-    "long" : -4.04503 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 315483 ,
-    "notation" : "E73224" ,
-    "stationReference" : "E73224"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72124" ,
-    "easting" : 244688 ,
-    "gridReference" : "SX 44688 54338" ,
-    "label" : "Plymouth" ,
-    "lat" : 50.36839 ,
-    "long" : -4.18525 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 54338 ,
-    "notation" : "E72124" ,
-    "stationReference" : "E72124"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E74424" ,
-    "easting" : 447829 ,
-    "gridReference" : "HU 47829 41374" ,
-    "label" : "Lerwick" ,
-    "lat" : 60.15403 ,
-    "long" : -1.14031 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 1141374 ,
-    "notation" : "E74424" ,
-    "stationReference" : "E74424"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E72224" ,
-    "easting" : 146743 ,
-    "gridReference" : "SW 46743 28559" ,
-    "label" : "Newlyn" ,
-    "lat" : 50.103 ,
-    "long" : -5.543 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 28559 ,
-    "notation" : "E72224" ,
-    "stationReference" : "E72224"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E71124" ,
-    "easting" : 519959 ,
-    "gridReference" : "TA 19959 16382" ,
-    "label" : "Immingham" ,
-    "lat" : 53.63022 ,
-    "long" : -0.18742 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 416382 ,
-    "notation" : "E71124" ,
-    "stationReference" : "E71124"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73239" ,
@@ -3223,28 +1812,28 @@ eqfeed_callback({
     "long" : -4.04503 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "01:43",
+            "depth": 1.26
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "07:05",
+            "depth": 4.45
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "02:25",
+            "depth": 1.04
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "07:41",
+            "depth": 4.72
           }
         ]
       }
@@ -3261,72 +1850,34 @@ eqfeed_callback({
     "long" : -1.14031 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:38",
+            "depth": 0.76
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:47",
+            "depth": 1.92
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:10",
+            "depth": 0.65
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:21",
+            "depth": 2.01
           }
         ]
       }
     ],    "northing" : 1141374 ,
     "notation" : "E74439" ,
     "stationReference" : "E74439"
-  }
-  , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73324" ,
-    "easting" : 278549 ,
-    "gridReference" : "SH 78549 83195" ,
-    "label" : "Llandudno" ,
-    "lat" : 53.33167 ,
-    "long" : -3.82522 ,
-    "readings" : [
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      },
-      {
-        "date": "",
-        "depths": [
-          {
-            "time": "",
-            "depth": ""
-          },
-          {
-            "time": "",
-            "depth": ""
-          }
-        ]
-      }
-    ],    "northing" : 383195 ,
-    "notation" : "E73324" ,
-    "stationReference" : "E73324"
   }
   , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73339" ,
@@ -3337,28 +1888,28 @@ eqfeed_callback({
     "long" : -3.82522 ,
     "readings" : [
       {
-        "date": "",
+        "date": "Thu 15th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "03:51",
+            "depth": 1.42
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "09:39",
+            "depth": 6.92
           }
         ]
       },
       {
-        "date": "",
+        "date": "Fri 16th",
         "depths": [
           {
-            "time": "",
-            "depth": ""
+            "time": "04:27",
+            "depth": 1.06
           },
           {
-            "time": "",
-            "depth": ""
+            "time": "10:12",
+            "depth": 7.25
           }
         ]
       }
