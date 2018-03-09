@@ -1,7 +1,7 @@
 let map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 6,
+    zoom: 5,
     center: {lat: 53.85252660044951, lng: -2.8},
     mapTypeId: 'terrain'
   });
@@ -24,39 +24,41 @@ function eqfeed_callback(results) {
     portPos: [],
     portName: []
   };
-  let marker = new google.maps.Marker({
-    position: null,
-    map: null
-  })
+
   for (let i = 0; i < results.items.length; i++) {
     let lat = parseFloat(results.items[i].lat);
     let lng = parseFloat(results.items[i].long);
     let latLng = new google.maps.LatLng(lat, lng);
+    let date = results.items[i].readings[0].date;
+    let time = results.items[i].readings[0].depths[0].time;
+    let depth = results.items[i].readings[0].depths[0].depth;
     let contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
     '<h1 id="firstHeading" class="firstHeading">'+ results.items[i].label + '</h1>'+
     '<div id="bodyContent">'+
-    '<p><b>' + results.items[i].label + '</b>' +
+    '<p><b> Depth Reading </b></p>' +
+    '<p> Date: ' + date + '</p>' +
+    '<p> Time: '+ time + '</p>' +
+    '<p> Depth: '+ depth + '</p>' +
     '</div>'+
     '</div>';
-    portData.portPos.push({lat:lat,lng:lng});
-    portData.portName.push(contentString);
+    
+    portData.portPos.push({lat:lat, lng:lng, name:contentString});
   }
 
   portData.portPos.forEach(port =>{
-    marker.position = port;
-    marker.map= map;
+    let marker = new google.maps.Marker({
+      position: {lat:port.lat,lng:port.lng},
+      map: map
+    })
 
     marker.addListener('click', function() {
       map.setZoom(10);
       map.setCenter(marker.getPosition());
     })
-  })
-
-  portData.portName.forEach(name => {
     let infowindow = new google.maps.InfoWindow({
-      content: name
+      content: port.name
     })
     marker.addListener('click', function() {
       infowindow.open(map, marker);
