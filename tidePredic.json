@@ -958,7 +958,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 292745 ,
+    ],
+    "northing" : 292745 ,
     "notation" : "E70024" ,
     "stationReference" : "E70024"
   }
@@ -996,7 +997,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 100040 ,
+    ],
+    "northing" : 100040 ,
     "notation" : "E71724" ,
     "stationReference" : "E71724"
   }
@@ -1034,7 +1036,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 395254 ,
+    ],
+    "northing" : 395254 ,
     "notation" : "E70124" ,
     "stationReference" : "E70124"
   }
@@ -1072,7 +1075,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 600180 ,
+    ],
+    "northing" : 600180 ,
     "notation" : "E73939" ,
     "stationReference" : "E73939"
   }
@@ -1148,7 +1152,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 382871 ,
+    ],
+    "northing" : 382871 ,
     "notation" : "E70539" ,
     "stationReference" : "E70539"
   }
@@ -1186,7 +1191,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 239182 ,
+    ],
+    "northing" : 239182 ,
     "notation" : "E73139" ,
     "stationReference" : "E73139"
   }
@@ -1224,7 +1230,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 893910 ,
+    ],
+    "northing" : 893910 ,
     "notation" : "E70439" ,
     "stationReference" : "E70439"
   }
@@ -1262,7 +1269,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 529532 ,
+    ],
+    "northing" : 529532 ,
     "notation" : "E73624" ,
     "stationReference" : "E73624"
   }
@@ -1300,7 +1308,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 678062 ,
+    ],
+    "northing" : 678062 ,
     "notation" : "E70824" ,
     "stationReference" : "E70824"
   }
@@ -1416,7 +1425,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 183920 ,
+    ],
+    "northing" : 183920 ,
     "notation" : "E72824" ,
     "stationReference" : "E72824"
   }
@@ -1454,7 +1464,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 654544 ,
+    ],
+    "northing" : 654544 ,
     "notation" : "E74024" ,
     "stationReference" : "E74024"
   }
@@ -1531,7 +1542,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 205371 ,
+    ],
+    "northing" : 205371 ,
     "notation" : "E73039" ,
     "stationReference" : "E73039"
   }
@@ -1569,7 +1581,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 950811 ,
+    ],
+    "northing" : 950811 ,
     "notation" : "E70639" ,
     "stationReference" : "E70639"
   }
@@ -1607,7 +1620,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 755309 ,
+    ],
+    "northing" : 755309 ,
     "notation" : "E74239" ,
     "stationReference" : "E74239"
   }
@@ -1645,7 +1659,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 469043 ,
+    ],
+    "northing" : 469043 ,
     "notation" : "E73539" ,
     "stationReference" : "E73539"
   }
@@ -1683,7 +1698,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 554214 ,
+    ],
+    "northing" : 554214 ,
     "notation" : "E73724" ,
     "stationReference" : "E73724"
   }
@@ -1799,7 +1815,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : -79699 ,
+    ],
+    "northing" : -79699 ,
     "notation" : "E70224" ,
     "stationReference" : "E70224"
   }
@@ -1837,7 +1854,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 315483 ,
+    ],
+    "northing" : 315483 ,
     "notation" : "E73239" ,
     "stationReference" : "E73239"
   }
@@ -1875,7 +1893,8 @@ eqfeed_callback({
           }
         ]
       }
-    ],    "northing" : 1141374 ,
+    ],
+    "northing" : 1141374 ,
     "notation" : "E74439" ,
     "stationReference" : "E74439"
   }
