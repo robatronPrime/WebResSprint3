@@ -17,7 +17,7 @@ function initMap() {
 
 }
 
-function feed_callback(results) {
+function callback(results) {
   //let heatmapData = [];
   let portData = [];
   portData = {
