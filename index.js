@@ -17,7 +17,7 @@ function initMap() {
 
 }
 
-function eqfeed_callback(results) {
+function feed_callback(results) {
   //let heatmapData = [];
   let portData = [];
   portData = {
@@ -43,7 +43,7 @@ function eqfeed_callback(results) {
     '<p> Depth: '+ depth + '</p>' +
     '</div>'+
     '</div>';
-    
+
     portData.portPos.push({lat:lat, lng:lng, name:contentString});
   }
 

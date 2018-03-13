@@ -1,4 +1,4 @@
-eqfeed_callback({
+callback({
   "@context" : "http://environment.data.gov.uk/flood-monitoring/meta/context.jsonld" ,
   "meta" : {
     "publisher" : "Environment Agency" ,
