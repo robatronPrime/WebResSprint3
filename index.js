@@ -6,7 +6,7 @@ function initMap() {
     mapTypeId: 'terrain'
   });
 
-  // Create a <script> tag and set the USGS URL as the source.
+  // Create a <script> tag and set the URL, or json document as the source.
   const script = document.createElement('script');
 
   //link to json file
