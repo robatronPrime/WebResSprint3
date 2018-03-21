@@ -19,6 +19,7 @@ callback({
     "label" : "Lowestoft" ,
     "lat" : 52.473075 ,
     "long" : 1.750085 ,
+    "keelClear" : 2,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -65,6 +66,7 @@ callback({
     "label" : "Avonmouth Portbury" ,
     "lat" : 51.49999 ,
     "long" : -2.728468 ,
+    "keelClear" : 1.5,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -111,6 +113,7 @@ callback({
     "label" : "Sheerness" ,
     "lat" : 51.445627 ,
     "long" : 0.743415 ,
+    "keelClear" : 2,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -157,6 +160,7 @@ callback({
     "label" : "Cromer" ,
     "lat" : 52.934316 ,
     "long" : 1.301623 ,
+    "keelClear" : 2,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -203,6 +207,7 @@ callback({
     "label" : "Weymouth" ,
     "lat" : 50.608501 ,
     "long" : -2.447945 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -249,6 +254,7 @@ callback({
     "label" : "Dover" ,
     "lat" : 51.114372 ,
     "long" : 1.322641 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -295,6 +301,7 @@ callback({
     "label" : "Heysham" ,
     "lat" : 54.031798 ,
     "long" : -2.920253 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -341,6 +348,7 @@ callback({
     "label" : "Ilfracombe" ,
     "lat" : 51.211131 ,
     "long" : -4.112362 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -387,6 +395,7 @@ callback({
     "label" : "North Shields" ,
     "lat" : 55.007415 ,
     "long" : -1.439769 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -433,6 +442,7 @@ callback({
     "label" : "Workington" ,
     "lat" : 54.650691 ,
     "long" : -3.56717 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -479,6 +489,7 @@ callback({
     "label" : "Plymouth" ,
     "lat" : 50.368401 ,
     "long" : -4.185217 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -525,6 +536,7 @@ callback({
     "label" : "Newhaven" ,
     "lat" : 50.781775 ,
     "long" : 0.057004 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -571,6 +583,7 @@ callback({
     "label" : "Whitby" ,
     "lat" : 54.489967 ,
     "long" : -0.614597 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -617,6 +630,7 @@ callback({
     "label" : "Liverpool" ,
     "lat" : 53.449655 ,
     "long" : -3.018007 ,
+    "keelClear" : 3 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -663,6 +677,7 @@ callback({
     "label" : "Hinkley Point" ,
     "lat" : 51.210605 ,
     "long" : -3.131326 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -709,6 +724,7 @@ callback({
     "label" : "Harwich" ,
     "lat" : 51.947978 ,
     "long" : 1.292108 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -755,6 +771,7 @@ callback({
     "label" : "Newlyn" ,
     "lat" : 50.103007 ,
     "long" : -5.542779 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -801,6 +818,7 @@ callback({
     "label" : "Portsmouth" ,
     "lat" : 50.80228 ,
     "long" : -1.11118 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -848,6 +866,7 @@ callback({
     "label" : "Immingham" ,
     "lat" : 53.63018 ,
     "long" : -0.18742 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -892,6 +911,7 @@ callback({
     "label" : "St Marys" ,
     "lat" : 49.91847 ,
     "long" : -6.31642 ,
+    "keelClear" : 3 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -931,6 +951,7 @@ callback({
     "label" : "Lowestoft" ,
     "lat" : 52.47311 ,
     "long" : 1.75011 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -970,6 +991,7 @@ callback({
     "label" : "Newhaven" ,
     "lat" : 50.78178 ,
     "long" : 0.05703 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1003,51 +1025,13 @@ callback({
     "stationReference" : "E71724"
   }
   , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70124" ,
-    "easting" : 332490 ,
-    "gridReference" : "SJ 32490 95254" ,
-    "label" : "Liverpool" ,
-    "lat" : 53.44969 ,
-    "long" : -3.018 ,
-    "readings" : [
-      {
-        "date": "Thu 15th",
-        "depths": [
-          {
-            "time": "04:22",
-            "depth": 2.24
-          },
-          {
-            "time": "10:02",
-            "depth": 8.56
-          }
-        ]
-      },
-      {
-        "date": "Fri 16th",
-        "depths": [
-          {
-            "time": "05:01",
-            "depth": 1.82
-          },
-          {
-            "time": "10:37",
-            "depth": 8.93
-          }
-        ]
-      }
-    ],
-    "northing" : 395254 ,
-    "notation" : "E70124" ,
-    "stationReference" : "E70124"
-  }
-  , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73939" ,
     "easting" : 103846 ,
     "gridReference" : "NR 03846 00180" ,
     "label" : "Portrush" ,
     "lat" : 55.20678 ,
     "long" : -6.65683 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1081,50 +1065,13 @@ callback({
     "stationReference" : "E73939"
   }
   , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70924" ,
-    "easting" : 435928 ,
-    "gridReference" : "NZ 35928 68243" ,
-    "label" : "North Shields" ,
-    "lat" : 55.00744 ,
-    "long" : -1.43978 ,
-    "readings" : [
-      {
-        "date": "Thu 15th",
-        "depths": [
-          {
-            "time": "02:23",
-            "depth": 4.47
-          },
-          {
-            "time": "08:30",
-            "depth": 1.42
-          }
-        ]
-      },
-      {
-        "date": "Fri 16th",
-        "depths": [
-          {
-            "time": "02:57",
-            "depth": 4.66
-          },
-          {
-            "time": "09:05",
-            "depth": 1.20
-          }
-        ]
-      }
-    ],    "northing" : 568243 ,
-    "notation" : "E70924" ,
-    "stationReference" : "E70924"
-  }
-  , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70539" ,
     "easting" : 225529 ,
     "gridReference" : "SH 25529 82871" ,
     "label" : "Holyhead" ,
     "lat" : 53.31394 ,
     "long" : -4.62044 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1164,6 +1111,7 @@ callback({
     "label" : "Fishguard" ,
     "lat" : 52.01322 ,
     "long" : -4.98375 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1203,6 +1151,7 @@ callback({
     "label" : "Ullapool" ,
     "lat" : 57.89525 ,
     "long" : -5.15789 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1236,51 +1185,13 @@ callback({
     "stationReference" : "E70439"
   }
   , {
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E73624" ,
-    "easting" : 298980 ,
-    "gridReference" : "NX 98980 29532" ,
-    "label" : "Workington" ,
-    "lat" : 54.65072 ,
-    "long" : -3.56717 ,
-    "readings" : [
-      {
-        "date": "Thu 15th",
-        "depths": [
-          {
-            "time": "04:38",
-            "depth": 1.87
-          },
-          {
-            "time": "10:27",
-            "depth": 7.52
-          }
-        ]
-      },
-      {
-        "date": "Fri 16th",
-        "depths": [
-          {
-            "time": "05:12",
-            "depth": 1.53
-          },
-          {
-            "time": "11:00",
-            "depth": 7.87
-          }
-        ]
-      }
-    ],
-    "northing" : 529532 ,
-    "notation" : "E73624" ,
-    "stationReference" : "E73624"
-  }
-  , {
     "@id" : "http://environment.data.gov.uk/flood-monitoring/id/stations/E70824" ,
     "easting" : 326379 ,
     "gridReference" : "NT 26379 78062" ,
     "label" : "Leith" ,
     "lat" : 55.98983 ,
     "long" : -3.18169 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1320,6 +1231,7 @@ callback({
     "label" : "Mumbles" ,
     "lat" : 51.57 ,
     "long" : -3.97544 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1359,6 +1271,7 @@ callback({
     "label" : "Aberdeen" ,
     "lat" : 57.14406 ,
     "long" : -2.07736 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1398,6 +1311,7 @@ callback({
     "label" : "Newport" ,
     "lat" : 51.55 ,
     "long" : -2.98744 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1437,6 +1351,7 @@ callback({
     "label" : "Millport" ,
     "lat" : 55.74981 ,
     "long" : -4.90633 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1476,6 +1391,7 @@ callback({
     "label" : "Bangor" ,
     "lat" : 54.66475 ,
     "long" : -5.66947 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1515,6 +1431,7 @@ callback({
     "label" : "Milford Haven" ,
     "lat" : 51.70739 ,
     "long" : -5.05153 ,
+    "keelClear" : 3 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1554,6 +1471,7 @@ callback({
     "label" : "Wick" ,
     "lat" : 58.44097 ,
     "long" : -3.08631 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1593,6 +1511,7 @@ callback({
     "label" : "Tobermory" ,
     "lat" : 56.62311 ,
     "long" : -6.06422 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1632,6 +1551,7 @@ callback({
     "label" : "Port Erin" ,
     "lat" : 54.08539 ,
     "long" : -4.76806 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1671,6 +1591,7 @@ callback({
     "label" : "Portpatrick" ,
     "lat" : 54.84256 ,
     "long" : -5.12003 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1710,6 +1631,7 @@ callback({
     "label" : "Stornoway" ,
     "lat" : 58.20781 ,
     "long" : -6.38897 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1749,6 +1671,7 @@ callback({
     "label" : "Kinlochbervie" ,
     "lat" : 58.45661 ,
     "long" : -5.05008 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1788,6 +1711,7 @@ callback({
     "label" : "Jersey" ,
     "lat" : 49.18333 ,
     "long" : -2.11667 ,
+    "keelClear" : 2 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1827,6 +1751,7 @@ callback({
     "label" : "Barmouth" ,
     "lat" : 52.71933 ,
     "long" : -4.04503 ,
+    "keelClear" : 1.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1866,6 +1791,7 @@ callback({
     "label" : "Lerwick" ,
     "lat" : 60.15403 ,
     "long" : -1.14031 ,
+    "keelClear" : 1 ,
     "readings" : [
       {
         "date": "Thu 15th",
@@ -1905,6 +1831,7 @@ callback({
     "label" : "Llandudno" ,
     "lat" : 53.33167 ,
     "long" : -3.82522 ,
+    "keelClear" : 0.5 ,
     "readings" : [
       {
         "date": "Thu 15th",
