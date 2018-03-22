@@ -18,37 +18,27 @@ function initMap() {
 }
 
 function callback(results) {
-  
+
   let markers = [];
   let portData = [];
   portData = {
     portPos: [],
     portName: []
   };
-  const scimitar = 1.2;
-  const sabre = 3.3;
-  const tyne = 3.8;
-  const quorn = 2.2;
-  const ledbury = 2.2;
-  const chidd = 2.2;
-  const catt = 2.2;
-  const defend = 7.4;
-  const kent = 6.2;
-  const west = 7.3;
-  const wave = 9.97;
 
-  for (let i = 0; i < results.items.length; i++) {
-    let lat = parseFloat(results.items[i].lat);
-    let lng = parseFloat(results.items[i].long);
+
+  results.items.forEach(item =>{
+    let lat = parseFloat(item.lat);
+    let lng = parseFloat(item.long);
     let latLng = new google.maps.LatLng(lat, lng);
-    let date = results.items[i].readings[0].date;
-    let time = results.items[i].readings[0].depths[0].time;
-    let depth = results.items[i].readings[0].depths[0].depth;
-    let keelClear = parseFloat(results.items[i].keelClear);
+    let date = item.readings[0].date;
+    let time = item.readings[0].depths[0].time;
+    let depth = item.readings[0].depths[0].depth;
+    let keelClear = parseFloat(item.keelClear);
     let contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">'+ results.items[i].label + '</h1>'+
+    '<h1 id="firstHeading" class="firstHeading">'+ item.label + '</h1>'+
     '<div id="bodyContent">'+
     '<p><b> Depth Reading </b></p>' +
     '<p> Date: ' + date + '</p>' +
@@ -65,7 +55,7 @@ function callback(results) {
       keel:keelClear,
       depth:depth
     });
-  }
+  })
 
   // Sets up markers
   function addMarker(location, infowindow){
@@ -83,11 +73,51 @@ function callback(results) {
     })
 
     // Push the marker to the markers array
+    function shipCalc(draught) {
+      console.log('foo');
+      clearMarkers();
+      let newPorts = [];
+      const dock = portData.portPos.filter((port) => { if((port.depth -port.keel) < draught) {newPorts.push(port)} })
+      newPorts.forEach(port => {
+        // Create an info window for each port
+        let infowindow = new google.maps.InfoWindow({
+          content: port.name
+        })
+
+        // Add a marker for each port
+        addMarker({lat:port.lat,lng:port.lng}, infowindow)
+      })
+    }
     markers.push(marker)
   }
 
-  portData.portPos.forEach(port =>{
+  window.onload=function buttonInit() {
+    const scimitar = document.getElementById("scimitar");
+    const sabre = document.getElementById("sabre");
+    const tyne = document.getElementById("tyne");
+    const quorn = document.getElementById("quorn");
+    const ledbury = document.getElementById("ledbury");
+    const chidd = document.getElementById("chidd");
+    const catt = document.getElementById("catt");
+    const defend = document.getElementById("defend");
+    const kent = document.getElementById("kent");
+    const west = document.getElementById("west");
+    const wave = document.getElementById("wave");
 
+    scimitar.addEventListener('click', shipCalc(1.2));
+    sabre.addEventListener('click', shipCalc(3.3));
+    tyne.addEventListener('click', shipCalc(3.8));
+    quorn.addEventListener('click', shipCalc(2.2));
+    ledbury.addEventListener('click', shipCalc(2.2));
+    chidd.addEventListener('click', shipCalc(2.2));
+    catt.addEventListener('click', shipCalc(2.2));
+    defend.addEventListener('click', shipCalc(7.4));
+    kent.addEventListener('click', shipCalc(6.2));
+    west.addEventListener('click', shipCalc(7.3));
+    wave.addEventListener('click', shipCalc(9.97));
+  }
+
+  portData.portPos.forEach(port => {
     // Create an info window for each port
     let infowindow = new google.maps.InfoWindow({
       content: port.name
@@ -95,9 +125,16 @@ function callback(results) {
 
     // Add a marker for each port
     addMarker({lat:port.lat,lng:port.lng}, infowindow)
-
-    let shipCal = port.depth - port.keelClear;
-
-
   })
+}
+
+function setMapOnAll(map) {
+  markers.forEach(marker => {
+    marker.setMap(map);
+  })
+}
+
+function clearMarkers() {
+  console.log('bar');
+  setMapOnAll(null);
 }
