@@ -14,17 +14,18 @@
   <div class = content>
     <button class= "button" id="output"> Find Ports </button>
     <button class= "button" id="clear"> Clear Markers </button>
-    <button class= "button" id="scimitar"> HMS SCIMITAR</button>
-    <button class= "button" id="sabre"> HMS SABRE</button>
-    <button class= "button" id="tyne"> HMS TYNE</button>
-    <button class= "button" id="quorn"> HMS QUORN(M41)</button>
-    <button class= "button" id="ledbury"> HMS LEDBURY(M30)</button>
-    <button class= "button" id="chidd"> HMS CHIDDINGFOLD (M37)</button>
-    <button class= "button" id="catt"> HMS CATTISTOCK (M31)</button>
-    <button class= "button" id="defend"> HMS DEFENDER (D3)</button>
-    <button class= "button" id="kent"> HMS KENT (F78)</button>
-    <button class= "button" id="west"> HMS WESTMINSTER (F237)</button>
-    <button class= "button" id="wave"> RFA Wave Knight</button>
+
+    <button class= "button" id="scimitar" value="1.2" onclick="shipCalc(this)"> HMS SCIMITAR</button>
+    <button class= "button" id="sabre" value="3.3" onclick="shipCalc(this)"> HMS SABRE</button>
+    <button class= "button" id="tyne" value="3.8" onclick="shipCalc(this)"> HMS TYNE</button>
+    <button class= "button" id="quorn" value="2.2" onclick="shipCalc(this)"> HMS QUORN(M41)</button>
+    <button class= "button" id="ledbury" value="2.2" onclick="shipCalc(this)"> HMS LEDBURY(M30)</button>
+    <button class= "button" id="chidd" value="2.2" onclick="shipCalc(this)"> HMS CHIDDINGFOLD (M37)</button>
+    <button class= "button" id="catt" value="2.2" onclick="shipCalc(this)"> HMS CATTISTOCK (M31)</button>
+    <button class= "button" id="defend" value="7.4" onclick="shipCalc(this)"> HMS DEFENDER (D3)</button>
+    <button class= "button" id="kent" value="6.2" onclick="shipCalc(this)"> HMS KENT (F78)</button>
+    <button class= "button" id="west" value="7.3" onclick="shipCalc(this)"> HMS WESTMINSTER (F237)</button>
+    <button class= "button" id="wave" value="9.97" onclick="shipCalc(this)"> RFA Wave Knight</button>
    </div>
 
   </body>
@@ -52,11 +53,13 @@
       setMapOnAll(null);
     }
 
-    function shipCalc() {
+    function shipCalc(draught) {
       console.log('foo');
       clearMarkers();
       let newPorts = [];
-      const dock = portData.portPos.filter((port) => { if((port.depth -port.keel) < draught) {newPorts.push(port)} })
+      const dock = portData.portPos.filter((port) => {
+        if((port.depth - port.keel) > document.getElementById(draught.id).value) {newPorts.push(port)}
+      })
       newPorts.forEach(port => {
         // Create an info window for each port
         let infowindow = new google.maps.InfoWindow({
@@ -70,11 +73,9 @@
 
     const output = document.getElementById("output");
     const clear = document.getElementById("clear");
-    const scimitar = document.getElementById("scimitar");
 
     output.addEventListener('click', findPorts, false);
     clear.addEventListener('click', clearMarkers, false);
-    scimitar.addEventListener('click', shipCalc, false);
 
   </script>
 </html>
