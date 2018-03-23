@@ -1,4 +1,11 @@
 let map;
+let markers = [];
+let portData = [];
+portData = {
+  portPos: [],
+  portName: []
+};
+
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 5,
@@ -18,58 +25,51 @@ function initMap() {
 }
 
 function callback(results) {
-  //let heatmapData = [];
-  let portData = [];
-  portData = {
-    portPos: [],
-    portName: []
-  };
-
-  for (let i = 0; i < results.items.length; i++) {
-    let lat = parseFloat(results.items[i].lat);
-    let lng = parseFloat(results.items[i].long);
+  results.items.forEach(item =>{
+    let lat = parseFloat(item.lat);
+    let lng = parseFloat(item.long);
     let latLng = new google.maps.LatLng(lat, lng);
-    let date = results.items[i].readings[0].date;
-    let time = results.items[i].readings[0].depths[0].time;
-    let depth = results.items[i].readings[0].depths[0].depth;
+    let date = item.readings[0].date;
+    let time = item.readings[0].depths[0].time;
+    let depth = item.readings[0].depths[0].depth;
+    let keelClear = parseFloat(item.keelClear);
     let contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">'+ results.items[i].label + '</h1>'+
+    '<h1 id="firstHeading" class="firstHeading">'+ item.label + '</h1>'+
     '<div id="bodyContent">'+
     '<p><b> Depth Reading </b></p>' +
     '<p> Date: ' + date + '</p>' +
     '<p> Time: '+ time + '</p>' +
     '<p> Depth: '+ depth + '</p>' +
+    '<p> Under Keel Clearance: '+ keelClear + 'm</p>' +
     '</div>'+
     '</div>';
 
-    portData.portPos.push({lat:lat, lng:lng, name:contentString});
-  }
+    portData.portPos.push({
+      lat:lat,
+      lng:lng,
+      name:contentString,
+      keel:keelClear,
+      depth:depth
+    });
+    return portData;
+  })
+}
 
-  portData.portPos.forEach(port =>{
-    let marker = new google.maps.Marker({
-      position: {lat:port.lat,lng:port.lng},
-      map: map
-    })
-
-    marker.addListener('click', function() {
-      map.setZoom(10);
-      map.setCenter(marker.getPosition());
-    })
-    let infowindow = new google.maps.InfoWindow({
-      content: port.name
-    })
-    marker.addListener('click', function() {
-      infowindow.open(map, marker);
-    })
+// Sets up markers
+function addMarker(location, infowindow){
+  let marker = new google.maps.Marker({
+    position: location,
+    map: map
   })
 
-  /*
-  const heatmap = new google.maps.visualization.HeatmapLayer({
-  data: heatmapData,
-  dissipating: false,
-  map: map
-})
-*/
+  // When a marker is clicked zoom in on that marker
+  // and open a info window
+  marker.addListener('click', function() {
+    map.setZoom(10);
+    map.setCenter(marker.getPosition());
+    infowindow.open(map, marker);
+  })
+  markers.push(marker);
 }
