@@ -98,7 +98,6 @@ function clearMarkers() {
 }
 
 function shipCalc(draught) {
-  console.log('foo');
   clearMarkers();
   let newPorts = [];
   const dock = portData.portPos.filter((port) => {
