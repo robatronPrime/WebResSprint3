@@ -73,3 +73,44 @@ function addMarker(location, infowindow){
   })
   markers.push(marker);
 }
+
+// Push the marker to the markers array
+function findPorts() {
+  portData.portPos.forEach(port => {
+    // Create an info window for each port
+    let infowindow = new google.maps.InfoWindow({
+      content: port.name
+    })
+
+    // Add a marker for each port
+    addMarker({lat:port.lat,lng:port.lng}, infowindow)
+  })
+}
+
+function setMapOnAll(map) {
+  markers.forEach(marker => {
+    marker.setMap(map);
+  })
+}
+
+function clearMarkers() {
+  setMapOnAll(null);
+}
+
+function shipCalc(draught) {
+  console.log('foo');
+  clearMarkers();
+  let newPorts = [];
+  const dock = portData.portPos.filter((port) => {
+    if((port.depth - port.keel) > document.getElementById(draught.id).value) {newPorts.push(port)}
+  })
+  newPorts.forEach(port => {
+    // Create an info window for each port
+    let infowindow = new google.maps.InfoWindow({
+      content: port.name
+    })
+
+    // Add a marker for each port
+    addMarker({lat:port.lat,lng:port.lng}, infowindow)
+  })
+}
