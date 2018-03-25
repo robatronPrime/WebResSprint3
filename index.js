@@ -100,7 +100,7 @@ function clearMarkers() {
 function shipCalc(draught) {
   clearMarkers();
   let newPorts = [];
-  const dock = portData.portPos.filter((port) => {
+  portData.portPos.filter((port) => {
     if((port.depth - port.keel) > document.getElementById(draught.id).value) {newPorts.push(port)}
   })
   newPorts.forEach(port => {
