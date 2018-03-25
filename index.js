@@ -24,6 +24,7 @@ function initMap() {
 
 }
 
+/* JSON Data Manipulation */
 function callback(results) {
   results.items.forEach(item =>{
     let lat = parseFloat(item.lat);
@@ -46,6 +47,7 @@ function callback(results) {
     '</div>'+
     '</div>';
 
+    // Store colected data in array
     portData.portPos.push({
       lat:lat,
       lng:lng,
@@ -57,7 +59,7 @@ function callback(results) {
   })
 }
 
-// Sets up markers
+// Marker creation function
 function addMarker(location, infowindow){
   let marker = new google.maps.Marker({
     position: location,
@@ -87,22 +89,29 @@ function findPorts() {
   })
 }
 
+// Manipulate all markers in array
 function setMapOnAll(map) {
   markers.forEach(marker => {
     marker.setMap(map);
   })
 }
 
+// Clear all markers on the map
 function clearMarkers() {
   setMapOnAll(null);
 }
 
+// The function to calculate if a shop can dock at a port
 function shipCalc(draught) {
   clearMarkers();
+
   let newPorts = [];
+
+  // Find the ports with filter, store in array
   portData.portPos.filter((port) => {
     if((port.depth - port.keel) > document.getElementById(draught.id).value) {newPorts.push(port)}
   })
+
   newPorts.forEach(port => {
     // Create an info window for each port
     let infowindow = new google.maps.InfoWindow({
